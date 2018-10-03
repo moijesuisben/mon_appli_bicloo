@@ -1,6 +1,6 @@
 var monUl = document.querySelector('ul');
 
-fetch('http://api.citybik.es/v2/networks/bicloo').then(function(res) {
+fetch('https://api.citybik.es/v2/networks/bicloo').then(function(res) {
   return res.json().then(function(data) {
     var stations = data.network.stations;
 
